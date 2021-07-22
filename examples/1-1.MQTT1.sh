@@ -18,14 +18,15 @@
 
 (T2)$ mosquitto_sub -t MGWS/Test99
 
+# Note: Type control-C to stop the subscriber above. 
+
 # ----------------------------------------------------------
 
 # (Step3) Publish (send) a message from Terminal No.2 (T2) to Terminal No.3 (T3)
 
 (T3)$ echo "Hello,Halifax!" 
+
 (T3)$ echo "Hello,Halifax!" | mosquitto_pub -l -t MGWS/Test99
 
-
 # ----------------------------------------------------------
-
 
