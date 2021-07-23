@@ -8,13 +8,13 @@
 
 # ----------------------------------------------------------
 
-# (Step1) Starting MQTT Broker
+# (Step1) Starting MQTT Broker on your Terminal No.1 (T1)
 
 (T1)$ mosquitto
 
 # ----------------------------------------------------------
 
-# (Step2) Subscribe (receive) message from MQTT broker on Terminal No.2 (T2)
+# (Step2) Subscribe (receive) message from MQTT broker on your Terminal No.2 (T2)
 
 (T2)$ mosquitto_sub -t MGWS/Test99
 
@@ -22,7 +22,7 @@
 
 # ----------------------------------------------------------
 
-# (Step3) Publish (send) a message from Terminal No.2 (T2) to Terminal No.3 (T3)
+# (Step3) Publish (send) a message from Terminal No.2 (T2) to your Terminal No.3 (T3)
 
 (T3)$ echo "Hello,Halifax!" 
 
