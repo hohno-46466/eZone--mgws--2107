@@ -1,5 +1,5 @@
 #define GBKA_LED_PIN  (4)
-#define MY_KEYWORD  "Hiro765-01"
+#define MY_KEYWORD  "Hiro765-L0"
 
 void setup() { 
   pinMode(GBKA_LED_PIN, OUTPUT);
