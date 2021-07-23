@@ -3,7 +3,6 @@
 # git clone git@github.com:hohno-46466/eZone--mgws--2107.git    
 
      eZone--mgws--2107
-     ├── 00doit.sh
      ├── Arduino
      │   ├── README.md
      │   ├── sketch_20210723_GBKA_Blink
