@@ -1,9 +1,6 @@
 # eZone--mgws--2107
 
-# git clone git@github.com:hohno-46466/eZone--mgws--2107.git    
-
      eZone--mgws--2107
-     ├── 00doit.sh
      ├── Arduino
      │   ├── README.md
      │   ├── sketch_20210723_GBKA_Blink
@@ -45,3 +42,6 @@
          └── README.md
      
      14 directories, 26 files
+
+# git clone git@github.com:hohno-46466/eZone--mgws--2107.git    
+
