@@ -44,7 +44,7 @@
 
 # Note: prepare sketch_20210723_Lesson2_with_notify_millis_and_keywords.ino on GBKA
 
-(T2)$ sudo cu -f -s 57600 -l /dev/ttyS3 | nkf -u -Lu | mosquitto_pub -l -t MGWS/Lesson2
+(T2)$ sudo cu -f -s 57600 -l /dev/ttyS3 | nkf -u -Lw | mosquitto_pub -l -t MGWS/Lesson2
 
 (T3)$ mosquitto_sub -t MGWS/Lesson2
 
@@ -62,7 +62,7 @@
 # Note:  The same trial with Step3 but use the public broker on the croud
 
 
-(T2)$ sudo cu -f -s 57600 -l /dev/ttyS3 | nkf -u -Lu | mosquitto_pub -l -t MGWS/NN-Lesson2 -h broker.hivemq.com -I clientId
+(T2)$ sudo cu -f -s 57600 -l /dev/ttyS3 | nkf -u -Lw | mosquitto_pub -l -t MGWS/NN-Lesson2 -h broker.hivemq.com -I clientId
 
 (T3)$ mosquitto_sub -t MGWS/NN-Lesson2 -h broker.hivemq.com -I clientId
 
