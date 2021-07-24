@@ -16,7 +16,6 @@ void setup() {
 }
 
 int cnt = 0;
-int prev = -1;
 
 void loop() {
   static boolean prevStat = false;
@@ -42,7 +41,7 @@ void loop() {
     digitalWrite(ledPin, LOW);
     if (prevStat == true) {
       prevStat = false;
-            Serial.print(MY_KEYWORD);
+      Serial.print(MY_KEYWORD);
       Serial.print(",");
       Serial.print(millis());
       Serial.print(", OFF");
