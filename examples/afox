@@ -1,1 +1,0 @@
-(T2)$ sudo cu -f -s 57600 -l /dev/ttyS3 | nkf -u -Lu | mosquitto_pub -l -t MGWS/NN-Lesson2 -h broker.hivemq.com -I clientId
