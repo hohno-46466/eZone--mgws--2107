@@ -1,11 +1,12 @@
 #define GBKA_LED_PIN  (4)
 #define MY_KEYWORD  "Hiro765-L0"
 
-void setup() { 
+void setup() {
   pinMode(GBKA_LED_PIN, OUTPUT);
   Serial.begin(57600); // initializes the serial port with a baud rate of 57600
-} 
-void loop() { 
+}
+
+void loop() {
   digitalWrite(GBKA_LED_PIN, HIGH);
   Serial.print(MY_KEYWORD);
   Serial.print(",");
@@ -15,5 +16,4 @@ void loop() {
   digitalWrite(GBKA_LED_PIN, HIGH);
   delay(500); //delay of 0.5 second
   digitalWrite(GBKA_LED_PIN, LOW);
-  
-} 
+}
