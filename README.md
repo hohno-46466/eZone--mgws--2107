@@ -47,8 +47,8 @@
 
 # git clone git@github.com:hohno-46466/eZone--mgws--2107.git    
 
-Note: 	url = https://github.com/hohno-46466/eZone--mgws--2107
+Note: url = https://github.com/hohno-46466/eZone--mgws--2107
 
-Note:   url = git@github.com:hohno-46466/eZone--mgws--2107.git
+Note: url = git@github.com:hohno-46466/eZone--mgws--2107.git
 
 -EOF-
