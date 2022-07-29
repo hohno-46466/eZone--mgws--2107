@@ -44,9 +44,6 @@
      
      13 directories, 27 files (Thu Jul 14 04:05:13 JST 2022)
 
-
-# git clone git@github.com:hohno-46466/eZone--mgws--2107.git    
-
 Note: url = https://github.com/hohno-46466/eZone--mgws--2107
 
 Note: url = git@github.com:hohno-46466/eZone--mgws--2107.git
