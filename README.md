@@ -1,6 +1,6 @@
 # GitHub/eZone--mgws--2107
 
-    ./eZone--mgws--2107
+    ./eZone--mgws--2107/
      ├──  Arduino/
      │   ├──  README.md
      │   ├──  sketch_20210723_GBKA_Blink/
@@ -42,7 +42,7 @@
      └──  misc/
          └──  README.md
      
-     13 directories, 27 files (Sun Aug 28 21:29:38 JST 2022)
+     13 directories, 27 files (Tue Aug 30 13:17:42 JST 2022)
 
 
 Note: URL = https://github.com/hohno-46466/eZone--mgws--2107
